@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="maximum-scale=1.0, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">Age Calculator</h1>
+
+      <label for="">Date of birth: </label>
+      <div class="input-box">
+        <select name="months" id="s-month">
+          <option value="january">january</option>
+          <option value="february">february</option>
+          <option value="march">march</option>
+          <option value="april">april</option>
+          <option value="may">may</option>
+          <option value="june">june</option>
+          <option value="july">july</option>
+          <option value="august">august</option>
+          <option value="september">september</option>
+          <option value="octobor">octobor</option>
+          <option value="november">november</option>
+          <option value="december">december</option>
+        </select>
+        <select name="days" id="s-day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <select name="years" id="years"></select>
+      </div>
+
+      <div class="button-container">
+        <button id="calculate-button">Calculate</button>
+        <button id="reset-button">Reset</button>
+      </div>
+
+      <label for="">Age result :</label>
+      <div class="age-result">
+        <span class="placeholder-text d-block">No result </span>
+
+        <div class="age-container d-none">
+          <p class="full-age">20 years, 3 months, 10 days</p>
+
+          <ol>
+            <li id="years">20 years</li>
+            <li id="months">4093 months</li>
+            <li id="weeks">39293 weeks</li>
+            <li id="days">3239203 days</li>
+            <li id="hours">93203023 hours</li>
+            <li id="minutes">9e0239023 minutes</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
